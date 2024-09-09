@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Live Frame | Codeframe</title>
+    </head>
+    <body>
+        
+<p> Welcome to my website </p>
+
+
+@keyframes shimmer {
+  from { background-position: var(--percentage) 0; }
+  to { background-position: calc(var(--percentage) * -1) 0; }
+}
+
+.shimmer {
+  animation: shimmer 2s linear infinite;
+  background: #f0f0f0 linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 25%, transparent 50%);
+  background-size: var(--percentage) 100%;
+  height: 80vh;
+  width: var(--width);
+  font-size: 3rem;
+  padding: 10px;
+}
+
+
+<p>Hello, everyone!</p>
+
+<H1>Hello, everyone!</H1>
+
+<a>Hello, everyone!</a>
+
+<h2>Hello, everyone!</H2>
+
+<H3>Hello, everyone!</H3>
+
+<kbd>Hello, everyone!</kbd>
+
+<tnr>Hello, everyone!</tnr>
+
+<abbr>Hello, everyone!</abbr>
+
+<main><p>Hello, everyone!</p><main>
+
+    <div class="loader"></div>
+
+
+<p>
+    Harry Potter was the <strong>chosen one</strong>.
+</p>
+
+<main>
+    <p>
+        Harry Potter was the <strong><em>chosen</em> one</strong>.
+    </p>
+</main>
+
+<p>I'm <em>mismatched</p></em>
+
+<p>
+    Please check out
+    <a>my Instagram!</a>
+</p>
+
+<!-- our CSS goes here, in between these tags -->
+<style>
+    h1 {
+        color: yellow;
+        font-size: 40px;
+    }
+</style>
+
+<!-- our HTML from before -->
+<h1>Hello there!</h1>
+<p>Welcome to CSS</p>
+<p>Let's get colorful.</p>
+
+
+
+
+
+<style>
+    body {
+        background-color: black
+    }
+    h1 {
+        color: aqua;
+        font-size: 40px;
+    }
+    p {
+        color: pink;
+        font-style: italic;
+    }
+</style>
+
+<h1>Hello there!</h1>
+<p>Welcome to CSS</p>
+<p>Let's get colorful.</p>
+
+<style>
+    p.purple-border {
+        border-width: 5px;
+        border-style: solid;
+        border-color: purple;
+    }
+
+    /* We can also write this in shorthand, like this */
+    p.purple-border {
+        border: 5px solid purple;
+    }
+</style>
+
+<p class="red-border">I've got a border around me!</p>
+
+<style>
+    img.first {
+        border-radius: 50%;
+    }
+    img.second {
+        border-radius: 12px;
+    }
+</style>
+
+<img class="first"
+    src="https://www.mygoldenretrieverpuppies.com/wp-content/uploads/2024/03/pexels-chevanon-photography-1108099.jpg" alt="Linus's Profile" />
+<img class="second"
+    src="https://i.ebayimg.com/images/g/2FYAAOSwaT9knDGH/s-l1600.webp" alt="Linus's Profile" />
+
+
+
+
+
+<style>
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 60px;
+  aspect-ratio: 1;
+  --g: conic-gradient(from -90deg at 10px 10px,#fff 90deg,#0000 0);
+  background: var(--g), var(--g), var(--g);
+  background-size: 50% 50%;
+  animation: l18 1s infinite;
+}
+@keyframes l18 {
+   0%   {background-position:0     0, 10px 10px, 20px 20px}
+   33%  {background-position:-30px 0, 10px 10px, 20px 20px}
+   66%  {background-position:-30px 0, 10px 40px, 20px 20px}
+   100% {background-position:-30px 0, 10px 40px, 50px 20px}
+}
+    </style>
+
+    <style> 
+
+    /* HTML: <div class="loader"></div> */
+.loader {
+  display: inline-flex;
+  gap: 10px;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  height: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    linear-gradient(#222 0 0) top/100% 40% no-repeat,
+    radial-gradient(farthest-side,#000 95%,#0000) 50%/8px 8px no-repeat
+    #fff;
+  animation: l7 1.5s infinite alternate ease-in;
+}
+@keyframes l7 {
+  0%,
+  70% {background-size:100% 40%,8px 8px}
+  85% {background-size:100% 120%,8px 8px}
+  100% {background-size:100% 40%,8px 8px}
+}
+</style>
+
+
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4b1QmkiZTN1e8zJo_mi4tHoSmt0wWo6jSljKDrWnc_XwyZiuBs7rThw4k5J-U1xu0nesMjEUkd8kFz73olrMpb-ImM67hEeAEN9GQv3y47WSD0kd6rKNzuMWSkDAjGKv4OjCTLqaPWyFL/s1600/tumblr_inline_mq9n6wryzl1qz4rgp.gif" />
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/630978ef-9de8-4519-8e3f-b8b16cf5183f/d6e41az-409331eb-1264-4761-a692-262c3c191f45.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYzMDk3OGVmLTlkZTgtNDUxOS04ZTNmLWI4YjE2Y2Y1MTgzZlwvZDZlNDFhei00MDkzMzFlYi0xMjY0LTQ3NjEtYTY5Mi0yNjJjM2MxOTFmNDUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tkfnhRBmpv-9CRMgrZBJW8gmit6w6oQcPvv3OJy8dG8" />
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwd3xh7qs82zXSrbE7bx5VBVzSmBx6KByaXdjcKkNaQxuM2Mw5TO8bvoZguBpcQvR1jogwI7TsYFrMmk2SpxwgvVa1-aQdjlzPOi0Ui64UmCCzzxqZbxyZII-qcAUorOSE7F1jvF1l4I3W/s1600/tumblr_mknko5Cx3n1s8njeuo1_r2_400.gif" />
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmPraQtVIvFG3XmNTpjZFGuGfn-bCUPTkeFXgOap3Gl52L9patkEUWbjKww2FpFoT1pSSVeBXAaskD6zbmyXWqitWZCsNs90jKGwMkkLQDzEJix7xV7GwZv_u8B7soaZFZMiUw0JB8lXMP/s1600/tumblr_mqaeolrD4J1sug6mbo1_400.gif" />
+
+<p>
+This is me and K
+    </p>
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe8ZKGuAppDpHpTdWCh5JVy_yed-wujRGPGot9sjiAkt-ueeTnUJS8-TQsUdQElfkCfVLmioWfPldPn5hyOJBnYC1E-6SSHEx0lSzMbR5edvHONzmRPZIDjFHGTUpeW1KwqQGRPnEYv78S/s1600/tumblr_mpsw4zLZwZ1rzp5vwo1_500.gif" />
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnSFCnNB6zgUF-O1KYV7IcZqV-dqWRJ-_843WuhTGF1Jp1TsO_w1JfZ0Asjke-J_5dh4-HtjilyoQnwDN2uUBl8hgHhKn4pFbx2xcgz0b8XFTTn2r3vNBIH8TjpvAdMXicdZzKewUP1-Mq/s1600/tumblr_mm9x3nLo201s85x8bo1_500.gif" />
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhktkZf0lbPrLVacJE-JoaZ86FhXJvTb6Gom1jArJcOWPZul0CfscuiCO8WjOocLLAtWnZ9qd5FQASy3YHsgB54qh1-AJGSL8vDzVQVx9PSPacV7Xi1F38ZB7wNE256PbnpkGiFAgYaKPyk/s1600/tumblr_mowxpfbSXs1s8njeuo1_500.gif" />
+
+<p>
+
+Dad as a kid
+    </p>
+
+    <img src="https://gifdb.com/images/high/minions-the-rise-of-gru-u4ehnln7o2qhbc1a.webp" /><img src="https://gifdb.com/images/high/felonious-gru-dancing-with-agnes-and-minions-eh0fjzgg1fbugx0v.webp" />
+
+
+
+    <img src="https://gifdb.com/images/high/minions-soldiers-shoot-failed-jr4lge054wg8x0vp.webp" />
+
+    <p>
+Maja
+        </p>
+    
+    <img src="https://gifdb.com/images/high/minions-darwin-driving-spaceship-mpbgcr8js81d1e1y.webp" />
+
+    <img src="https://gifdb.com/images/high/minions-dj-mike-3q8ypp5idhc2dibx.webp" />
+
+ <img src="https://www.icegif.com/wp-content/uploads/2023/03/icegif-413.gif" />
+
+
+<p>
+All of us together
+    </p>
+
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTZzMnhuZ2NmaXBybWN2bDZyb3N2NXE0NWFsZ2hzcG93a3lmYnlheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cKbLJzS0cOTklEmzto/giphy.webp" />
+
+   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGJrMmZheXltdXozZzB1YjUwYjkxNWMyZWJvMHBrcmE3cmphMWw3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11sBLVxNs7v6WA/giphy.webp" />
+
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2w2ZHQ5bzJlbHBycml1dXBsdGZpNGxqa2gzdGh1YmpreTBuemRiMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hEIuLmpW9DmGA/giphy.webp" />
+
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3A5bzN4Y2w3d2ZnZzNtdmgxOTdhM2VpaGNiNXphaG1teTFlNmxxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/trTwr5yJ9SmTm/200.webp" />
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWRqdXI3eHI1aTNsZjNmOTQ0cjF0cmk4Y3FqNHhheDdrdHBvMnlkayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MF4gHGVeCOXAc/giphy.webp" />
+
+<img src="images/animated-gif-file.gif" />
+
+<img src="images/animated-gif-file.gif" />
+
+<img src="images/animated-gif-file.gif" />
+
+<img src="images/animated-gif-file.gif" />
+
+<img src="images/animated-gif-file.gif" />
+        <script src="https://unpkg.com/torus-dom/dist/index.min.js"></script>
+        <script></script>
+    </body>
+</html>
